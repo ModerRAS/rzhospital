@@ -15,8 +15,6 @@ def rss_create(data):
     output = ["<rss version=\"2.0\"><channel>"
               "<title>日照市中医医院通知</title>"
               "<description>Powered by ModerRAS</description>"
-              "<pubDate>" + t + "</pubDate>",
-              "<lastBuildDate>" + t + "</lastBuildDate>",
               "<link>http://www.rzhtcm.com/mobile/index.php</link>"
               "<generator>Python 3</generator>"
               "<language>zh-cn</language>"
@@ -26,7 +24,6 @@ def rss_create(data):
         item = ["<item>"
                 "<title><![CDATA[ " + i["title"] + " ]]></title>",
                 "<description>" + i["description"] + "</description>",
-                "<pubDate>" + t + "</pubDate>",
                 "<guid>" + i["link"] + "</guid>",
                 "<link>" + i["link"] + "</link>",
                 "</item>"]
@@ -68,7 +65,7 @@ def more_info(url: str):
 
 def main():
     rss = spider()
-    rss_save(rss, "/var/www/html/rzhpt.xml")
+    rss_save(rss, "feed.xml")
 
 
 if __name__ == '__main__':
