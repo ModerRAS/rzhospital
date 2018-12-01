@@ -106,3 +106,4 @@ venv.bak/
 #  myself
 config.py
 nohup.out
+rzhs.json
