@@ -7,7 +7,7 @@ import subprocess
 import re
 import config
 
-sleep_time = 60
+sleep_time = 600
 DIR = config.DIR
 
 
