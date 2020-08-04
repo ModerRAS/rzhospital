@@ -5,7 +5,7 @@
  <div class="fb-time">
   发布时间：2020-08-03
  </div>
- <div class="wz-content">
+ <div class="wz-content" style="overflow-x:scroll;">
   <p>
    附件下载：
    <a href="/uploads/file/20200803/20200803173449_25930.xlsx" target="_blank">
@@ -21,7 +21,7 @@
  <div class="fb-time">
   发布时间：2020-07-01
  </div>
- <div class="wz-content">
+ <div class="wz-content" style="overflow-x:scroll;">
   <p>
    附件下载：
    <a href="/uploads/file/20200804/20200804110743_55865.doc" target="_blank">
@@ -37,7 +37,7 @@
  <div class="fb-time">
   发布时间：2020-05-23
  </div>
- <div class="wz-content">
+ <div class="wz-content" style="overflow-x:scroll;">
   <p align="center" style="margin:0pt;text-align:center;">
    <br/>
   </p>
@@ -475,7 +475,7 @@
  <div class="fb-time">
   发布时间：2020-05-20
  </div>
- <div class="wz-content">
+ <div class="wz-content" style="overflow-x:scroll;">
   <p align="center" style="text-align:center;text-indent:2em;">
    2020年日照市中医医院公开招聘
   </p>
