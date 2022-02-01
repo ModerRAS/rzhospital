@@ -70,7 +70,7 @@ def rss_save(rss, file):
 
 def spider():
     r = requests.get("http://www.rzhtcm.com/mobile/index.php")
-    soup = BeautifulSoup(r.text)
+    soup = BeautifulSoup(r.text, 'lxml')
     center = soup.select(".tzgg-center")[0].select(".tz-con")
     links = center[0].select("a")
     data = []
