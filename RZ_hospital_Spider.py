@@ -100,6 +100,4 @@ def loop():
 
 
 if __name__ == '__main__':
-    while True:
-        loop()
-        time.sleep(sleep_time)
+    loop()
