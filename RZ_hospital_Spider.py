@@ -89,7 +89,7 @@ def spider():
 
 def more_info(url: str):
     r = requests.get(url)
-    soup = BeautifulSoup(r.text)
+    soup = BeautifulSoup(r.text, 'lxml')
     return soup.select(".list-content")[0].prettify()
 
 
